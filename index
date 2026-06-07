@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gojo Satoru Information Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e3a8a,#38bdf8);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:3rem;
+    text-shadow:0 0 15px cyan;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:25px;
+    margin:20px 0;
+    box-shadow:0 0 20px rgba(0,255,255,0.3);
+}
+
+.card h2{
+    color:#7dd3fc;
+    margin-bottom:15px;
+}
+
+.info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.info-box{
+    background:rgba(255,255,255,0.1);
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.info-box h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.quote{
+    text-align:center;
+    font-size:1.5rem;
+    font-style:italic;
+    color:#e0f2fe;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+    border:3px solid cyan;
+    transition:0.4s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+button{
+    background:#38bdf8;
+    border:none;
+    padding:12px 25px;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#0ea5e9;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>⚡ Gojo Satoru ⚡</h1>
+    <p>The Strongest Sorcerer from Jujutsu Kaisen</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📖 About Gojo</h2>
+
+        <div class="info">
+            <div class="info-box">
+                <h3>Character Name</h3>
+                <p>Gojo Satoru</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Best Student</h3>
+                <p>Yuta Okkotsu</p>
+                <p>Megumi Fushiguro</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Favourite Food</h3>
+                <p>Ramen & Sweet Desserts</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Special Power</h3>
+                <p>Infinity & Domain Expansion</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🔥 Why I Like Gojo</h2>
+
+        <p class="quote">
+            "Throughout Heaven and Earth, I Alone Am The Honored One."
+        </p>
+
+        <br>
+
+        <ul>
+            <li>✅ Strongest Jujutsu Sorcerer</li>
+            <li>✅ Amazing Domain Expansion</li>
+            <li>✅ Cool Personality</li>
+            <li>✅ Protects His Students</li>
+            <li>✅ Has an Awesome Theme Song</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🎵 Gojo Theme Song</h2>
+
+        <audio controls>
+            <source src="C:\Users\WIN-11\Downloads\gojo-voice2.mp3" type="audio/mpeg">
+        </audio>
+
+        <br>
+        <button onclick="alert('Throughout Heaven and Earth, I Alone Am The Honored One!')">
+            Activate Domain Expansion
+        </button>
+    </div>
+
+    <div class="card">
+        <h2>🖼️ Gojo Gallery</h2>
+
+        <div class="gallery">
+            <img src="C:\Users\WIN-11\Downloads\gojo.jpg" alt="Gojo Picture 0">
+            <img src="C:\Users\WIN-11\Downloads\gojo1.jpg" alt="Gojo Picture 1">
+            <img src="C:\Users\WIN-11\Downloads\gojo2.jpg" alt="Gojo Picture 2">
+            <img src="C:\Users\WIN-11\Downloads\gojo3.jpg" alt="Gojo Picture 3">
+        </div>
+
+        <h2>💬 Gojo's Best Student yuta <a href="C:\Users\WIN-11\Downloads\yuta 4K cc.mp4" target="yuta">Watch Video</a></h2>
+        <p>Watch and know the power of Gojo's student!</p>
+        <h3><strong>Gojo saturo power</strong></h3>
+        <p>Gojo Satoru is the strongest jujutsu sorcerer in the world of Jujutsu Kaisen. He possesses immense cursed energy and has mastered various techniques, including his signature "Infinity" technique, which allows him to create an impenetrable barrier around himself. Gojo's power is so great that he can easily defeat powerful curses and even other sorcerers with ease. His strength and abilities make him a formidable force in the jujutsu world.</p>
+        <p>Watch the video to see Gojo's incredible powers in action!</p>
+        <a href="C:\Users\WIN-11\Downloads\4k dark cc gojo panel.mp4" target="manga gojo power">
+            <button>Watch Gojo's Power</button>
+            <h6><strong>Click the button to witness Gojo's overwhelming strength!</strong></h6>
+        </a>
+        <h2>⚔️ Gojo's "1 vs. 3" Battle</h2>
+        <p>In Jujutsu Kaisen, the "1 vs. 3" refers to the climax of the Shinjuku Showdown where Satoru Gojo fought Ryomen Sukuna, the Ten Shadows Shikigami Mahoraga, and Agito simultaneously.</p>
+        <p>Gojo's overwhelming power and strategic prowess allowed him to hold his own against these formidable opponents, showcasing his status as the strongest jujutsu sorcerer.</p>
+        <p>Despite being outnumbered, Gojo's mastery of his techniques and his ability to adapt to the situation made the battle an intense and memorable moment in the series.</p>
+            <p>For fans of Jujutsu Kaisen, this battle is a testament to Gojo's incredible strength and his role as a central figure in the story.</p>
+            <p>Experience the intensity of Gojo's battle against these powerful adversaries by watching the video linked above!</p>
+            <p>Don't miss out on witnessing one of the most epic battles in Jujutsu Kaisen history! </p>
+            <p>Now you see the photo of Mahogara,Agito and ryomen sukuna</p>
+            <img src="C:\Users\WIN-11\Downloads\mahogara.jpg" alt="Mahogara">
+            <img src="C:\Users\WIN-11\Downloads\gojo.jpg" alt="gojo's opponent agito">
+            <img src="C:\Users\WIN-11\Downloads\sukuna.jpg" alt="Sukuna">
+             
+    </div>
+</div>
+
+<footer>
+    <h3>⚡ Gojo Satoru Fan Page ⚡</h3>
+    <p>Created with ❤️ by a Gojo Fan</p>
+    <p>© 2024 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
